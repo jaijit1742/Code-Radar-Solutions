@@ -10,7 +10,7 @@ int main() {
     int n;
     scanf("%s %d %s",&cd,&n,&ef);
     printf("Name: %s\n",cd);
-    printf("Age: %d",n);
+    printf("Age: %d\n",n);
     printf("Hobby: %s",ef);
     return 0;
 }
