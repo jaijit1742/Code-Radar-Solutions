@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     int a;
-    if (a>=1  || <=100){
+    if (a>=1 || a<=100){
         printf("In Range");
     }
     else{
