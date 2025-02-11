@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     int a,b,c;
     scanf("%d %d %d",&a,&b,&c);
-    switch(c){
+    switch (c){
         case 1:
         printf("%d",a+b);
         break;
