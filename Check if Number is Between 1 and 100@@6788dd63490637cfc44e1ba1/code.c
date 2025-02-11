@@ -1,17 +1,15 @@
 #include <stdio.h>
 
-
 int main() {
     int a;
-    scanf("%d",&a);
-    if (a>=1){
+    scanf("%d", &a);
+
+    // Corrected condition for range checking
+    if (a >= 1 && a <= 100) {
         printf("In Range");
-    }
-    else if(a<=100){
-        printf("In Range");
-    }
-    else {
+    } else {
         printf("Out of Range");
     }
+
     return 0;
 }
