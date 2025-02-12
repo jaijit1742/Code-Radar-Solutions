@@ -1,17 +1,22 @@
-// Your code here...
 #include <stdio.h>
 
-int main(){
+int main() {
     int a;
-    scanf("%d",&a);
-    if (a<2){
+    scanf("%d", &a);
+
+    if (a < 2) {
         printf("Not Prime");
+        return 0;
     }
-    for (int i=2, i<=a;i++){
-        if (a%i==0){
-            printf("Not prime");
+
+    // Instead of sqrt(a), use i * i <= a
+    for (int i = 2; i * i <= a; i++) {  
+        if (a % i == 0) {  
+            printf("Not Prime");
+            return 0;
         }
-    printf("Prime");    
     }
+
+    printf("Prime");
     return 0;
 }
