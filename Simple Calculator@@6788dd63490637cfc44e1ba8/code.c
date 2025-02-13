@@ -7,17 +7,16 @@ const char* welcome() {
 int main() {
     int a, b, c;
     scanf("%d %d %d", &a, &b, &c);
-    switch (c) {
-        case 1:
-            printf("%d\n", a + b);
-            break;
-        case 2:
-            printf("%d\n", a - b);
-            break;
-        case 3:
-            printf("%d\n", a * b);
-            break;
-        case 4:
+    if (c=='+'){
+        printf("%d",a+b);
+    }
+    else if(c=='-'){
+        printf("%d",a-b);
+    }
+    else if(c=='*'){
+        printf("%d",a*b);
+    }
+    else{
         printf("%d",a/b);
     }
     return 0;
