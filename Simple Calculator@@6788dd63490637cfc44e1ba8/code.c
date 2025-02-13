@@ -25,7 +25,7 @@ int main() {
         }
         default:
         printf("Error: Invalid Operation");
-
+        break;
     }
     return 0;
 }
