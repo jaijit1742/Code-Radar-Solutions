@@ -18,12 +18,7 @@ int main() {
             printf("%d\n", a * b);
             break;
         case 4:
-            if (b == 0) {
-                printf("Error: Division by zero\n");
-            } else {
-                printf("%d\n", a / b);
-            }
-            break;
+        printf("%d",a/b);
     }
     return 0;
 }
