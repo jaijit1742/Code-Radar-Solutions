@@ -3,7 +3,7 @@
 int prime(int n);
 
 int prime(int n){
-    if (num<2){
+    if (n<2){
         return 0;
     }
 
