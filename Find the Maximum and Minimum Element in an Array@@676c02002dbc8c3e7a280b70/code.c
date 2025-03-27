@@ -19,7 +19,7 @@ int main(){
         }
         
     }
-    printf("%d",max);
+    printf("%d\n",max);
     printf("%d",min);
     return 0;
 }
