@@ -7,7 +7,11 @@ int fact(int num){
 }
 
 int factorialRange(int start,int end){
+    if(0>start){
+        printf("Invalid range");
+    }
+    else{
     for(int i=start;i<=end;i++){
         printf("%d\n",fact(i));
-    }
+    }}
 }
