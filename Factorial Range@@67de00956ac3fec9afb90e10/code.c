@@ -8,6 +8,6 @@ int fact(int num){
 
 int factorialRange(int start,int end){
     for(int i=start;i<=end;i++){
-        printf("%d\n",factorial(num));
+        printf("%d\n",fact(num));
     }
 }
