@@ -12,12 +12,13 @@ int isPrime(int n){
 }
 
 int printPrimesInRange(int a, int b){
+    if(a<b){
     for(int i=a;i<=b;i++){
-        if(isPrime(i)){
+        if(rime(i)){
             printf("%d ",i);
         }
-        else{
-            printf("No prime numbers");
-        }
+    }}
+    else{
+        printf("No prime numbers");
     }
 }
