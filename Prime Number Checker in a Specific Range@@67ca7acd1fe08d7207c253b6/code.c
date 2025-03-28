@@ -1,5 +1,5 @@
 // Your code here...
-int prime(int n){
+int isPrime(int n){
     if(n<2){
         return 0;
     }
@@ -11,9 +11,9 @@ int prime(int n){
     return 1;
 }
 
-int isPrime(int a, int b){
+int printPrimesInRange(int a, int b){
     for(int i=a;i<=b;i++){
-        if(prime(i)){
+        if(isPrime(i)){
             printf("%d ",i);
         }
     }
