@@ -15,7 +15,7 @@ int main(){
             printf("*");
         }
         nst+=2;
-        pritnf("\n");
+        printf("\n");
     }
     return 0;
     }
