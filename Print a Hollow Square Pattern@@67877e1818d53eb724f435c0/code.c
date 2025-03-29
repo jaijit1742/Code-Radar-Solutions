@@ -12,8 +12,10 @@ int main(){
             else{
                 printf(" ");
             }
-            printf("\n");
+
         }
-        return 0;
+                    printf("\n");
     }
+        return 0;
+
 }
