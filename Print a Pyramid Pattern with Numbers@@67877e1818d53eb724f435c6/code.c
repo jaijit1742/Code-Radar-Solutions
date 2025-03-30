@@ -12,9 +12,9 @@ int main(){
         }
         nsp--;
         for(int k=1;k<=nst;k++){
-            printf("%d",k);
+            printf("%d ",k);
         }
-        nst+=2;
+        nst+=1;
         printf("\n");
     }
 }
