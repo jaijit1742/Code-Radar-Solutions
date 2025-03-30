@@ -8,14 +8,16 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int num;
+    int num,found=0;
     scanf("%d",&num);
     for(int i=0;i<n;i++){
         if(num==arr[i]){
             printf("%d",i+1);
+            found=1;
+            break;
         }
-        else{
-            printf("-1");
-        }
+    }
+    if(!found){
+        printf("-1");
     }
 }
