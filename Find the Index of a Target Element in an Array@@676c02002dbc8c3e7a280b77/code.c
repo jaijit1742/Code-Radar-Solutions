@@ -13,5 +13,8 @@ int main(){
         if(num==arr[i]){
             printf("%d",i+1);
         }
+        else{
+            printf("-1");
+        }
     }
 }
